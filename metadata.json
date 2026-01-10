@@ -1,0 +1,5 @@
+{
+  "name": "Orbital Master - Space Gravity Simulator",
+  "description": "A physics-based orbital mechanics simulator where you can place stars, planets, moons, and satellites to create stable solar systems or chaotic cosmic events.",
+  "requestFramePermissions": []
+}
