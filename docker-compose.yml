@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  orbital-master:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: orbital-master
+    ports:
+      - "9001:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
